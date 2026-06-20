@@ -1,0 +1,344 @@
+INFO:     127.0.0.1:49686 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49690 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49691 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63556 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49914 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59230 - "GET /admin/exams/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64666 - "GET /admin/exams/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62495 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51449 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51449 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57814 - "OPTIONS /auth/candidate/verify-code HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57814 - "POST /auth/candidate/verify-code HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "OPTIONS /candidate/register-face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /candidate/register-face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "OPTIONS /exam/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /exam/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "OPTIONS /proctor/browser-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/browser-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "OPTIONS /proctor/analyze HTTP/1.1" 200 OK
+[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 3% ──────────── 184.0KB/6.2MB 1.2MB/s 0.1s<4.9s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 5% ╸─────────── 328.0KB/6.2MB 1.4MB/s 0.2s<4.4s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 6% ╸─────────── 376.0KB/6.2MB 93.4KB/s 0.4s<1:04[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 7% ╸─────────── 472.0KB/6.2MB 213.1KB/s 0.6s<27.8s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 12% ━─────────── 760.0KB/6.2MB 2.7MB/s 0.7s<2.0s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 13% ━╸────────── 808.0KB/6.2MB 260.3KB/s 0.8s<21.5s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 20% ━━────────── 1.2/6.2MB 2.1MB/s 1.0s<2.4s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 22% ━━╸───────── 1.4/6.2MB 1.5MB/s 1.1s<3.2s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 23% ━━╸───────── 1.4/6.2MB 220.0KB/s 1.3s<22.5s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 27% ━━━───────── 1.7/6.2MB 1.3MB/s 1.5s<3.4s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 32% ━━━╸──────── 2.0/6.2MB 2.3MB/s 1.6s<1.9s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 33% ━━━━──────── 2.1/6.2MB 324.3KB/s 1.8s<13.1s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 34% ━━━━──────── 2.1/6.2MB 337.9KB/s 1.9s<12.5s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 37% ━━━━──────── 2.3/6.2MB 518.3KB/s 2.1s<7.8s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 40% ━━━━╸─────── 2.5/6.2MB 1.6MB/s 2.2s<2.4s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 40% ━━━━╸─────── 2.5/6.2MB 400.9KB/s 2.4s<9.5s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 42% ━━━━━─────── 2.6/6.2MB 1.3MB/s 2.5s<2.7s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 43% ━━━━━─────── 2.7/6.2MB 324.8KB/s 2.6s<11.3s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 45% ━━━━━─────── 2.8/6.2MB 477.2KB/s 2.8s<7.3s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 47% ━━━━━╸────── 3.0/6.2MB 1.2MB/s 2.9s<2.7s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 48% ━━━━━╸────── 3.0/6.2MB 482.6KB/s 3.0s<6.8s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 51% ━━━━━━────── 3.2/6.2MB 1.3MB/s 3.2s<2.3s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 53% ━━━━━━────── 3.3/6.2MB 1.1MB/s 3.3s<2.7s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 57% ━━━━━━╸───── 3.5/6.2MB 1.2MB/s 3.5s<2.3s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 60% ━━━━━━━───── 3.7/6.2MB 591.5KB/s 3.7s<4.4s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 62% ━━━━━━━───── 3.9/6.2MB 580.2KB/s 3.9s<4.2s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 63% ━━━━━━━╸──── 3.9/6.2MB 535.3KB/s 4.1s<4.4s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 65% ━━━━━━━╸──── 4.1/6.2MB 540.6KB/s 4.4s<4.1s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 66% ━━━━━━━╸──── 4.1/6.2MB 476.8KB/s 4.6s<4.5s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 68% ━━━━━━━━──── 4.2/6.2MB 486.6KB/s 4.8s<4.2s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 71% ━━━━━━━━──── 4.4/6.2MB 571.4KB/s 5.0s<3.3s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 72% ━━━━━━━━╸─── 4.5/6.2MB 492.5KB/s 5.2s<3.7s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 74% ━━━━━━━━╸─── 4.6/6.2MB 1.7MB/s 5.3s<1.0s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 75% ━━━━━━━━━─── 4.7/6.2MB 464.7KB/s 5.4s<3.4s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 77% ━━━━━━━━━─── 4.8/6.2MB 1.1MB/s 5.6s<1.4s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 78% ━━━━━━━━━─── 4.9/6.2MB 418.3KB/s 5.7s<3.4s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 79% ━━━━━━━━━─── 4.9/6.2MB 425.9KB/s 5.9s<3.2s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 81% ━━━━━━━━━╸── 5.0/6.2MB 1.1MB/s 6.0s<1.1s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 82% ━━━━━━━━━╸── 5.1/6.2MB 466.6KB/s 6.1s<2.5s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 85% ━━━━━━━━━━── 5.3/6.2MB 2.0MB/s 6.2s<0.5s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 85% ━━━━━━━━━━── 5.3/6.2MB 396.3KB/s 6.3s<2.4s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 88% ━━━━━━━━━━╸─ 5.5/6.2MB 518.2KB/s 6.5s<1.5s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 91% ━━━━━━━━━━╸─ 5.7/6.2MB 598.3KB/s 6.8s<1.0s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 92% ━━━━━━━━━━━─ 5.7/6.2MB 527.3KB/s 7.0s<1.0s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 94% ━━━━━━━━━━━─ 5.9/6.2MB 1.2MB/s 7.1s<0.3s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 94% ━━━━━━━━━━━─ 5.9/6.2MB 446.5KB/s 7.2s<0.8s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 97% ━━━━━━━━━━━╸ 6.1/6.2MB 560.8KB/s 7.4s<0.3s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 99% ━━━━━━━━━━━╸ 6.2/6.2MB 519.6KB/s 7.7s<0.2s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt to 'yolov8n.pt': 100% ━━━━━━━━━━━━ 6.2MB 827.7KB/s 7.7s
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60993 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54378 - "OPTIONS /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55227 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50714 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60993 - "OPTIONS /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63513 - "OPTIONS /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55227 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60699 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50714 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63513 - "OPTIONS /exam/submit-mcq HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51481 - "OPTIONS /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60699 - "OPTIONS /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55227 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50714 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51481 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57943 - "OPTIONS /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55227 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56535 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50714 - "POST /exam/submit-mcq HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51481 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50070 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55227 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54973 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "OPTIONS /auth/admin/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "POST /auth/admin/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "OPTIONS /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56345 - "OPTIONS /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56345 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55051 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57810 - "OPTIONS /admin/exams/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50490 - "OPTIONS /admin/exams/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57810 - "GET /admin/exams/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50490 - "GET /admin/exams/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55739 - "OPTIONS /admin/questions/2e363d88-18b5-489a-8ef7-5a3655428c43 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55739 - "DELETE /admin/questions/2e363d88-18b5-489a-8ef7-5a3655428c43 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55739 - "OPTIONS /admin/questions/70829b9d-d1d6-4817-ad1b-1f6fcd0a956c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55739 - "DELETE /admin/questions/70829b9d-d1d6-4817-ad1b-1f6fcd0a956c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55739 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62446 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59020 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59025 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54877 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54877 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62243 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55004 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60619 - "OPTIONS /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60619 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60619 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60619 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60619 - "POST /auth/admin/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60619 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54198 - "GET /admin/exams/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49881 - "OPTIONS /admin/invite-codes/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63357 - "OPTIONS /admin/invite-codes/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56427 - "GET /admin/exams/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49881 - "GET /admin/invite-codes/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63357 - "GET /admin/invite-codes/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60180 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61090 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64073 - "OPTIONS /auth/candidate/verify-code HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64073 - "POST /auth/candidate/verify-code HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /candidate/register-face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /exam/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "OPTIONS /exam/finish HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "POST /exam/finish HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "OPTIONS /exam/result/af38aa6d-b42d-48a2-8066-36e131ca8fb2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54290 - "OPTIONS /exam/result/af38aa6d-b42d-48a2-8066-36e131ca8fb2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "GET /exam/result/af38aa6d-b42d-48a2-8066-36e131ca8fb2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54290 - "GET /exam/result/af38aa6d-b42d-48a2-8066-36e131ca8fb2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52184 - "POST /auth/candidate/verify-code HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52184 - "POST /candidate/register-face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52184 - "POST /exam/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52184 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52184 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53897 - "POST /proctor/browser-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53897 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53897 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53897 - "POST /proctor/browser-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53897 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /candidate/register-face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /exam/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "OPTIONS /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "OPTIONS /proctor/browser-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/browser-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "POST /proctor/browser-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51165 - "OPTIONS /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53145 - "OPTIONS /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53145 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "OPTIONS /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "OPTIONS /admin/reports/af38aa6d-b42d-48a2-8066-36e131ca8fb2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49362 - "OPTIONS /admin/reports/af38aa6d-b42d-48a2-8066-36e131ca8fb2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /admin/reports/af38aa6d-b42d-48a2-8066-36e131ca8fb2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49362 - "GET /admin/reports/af38aa6d-b42d-48a2-8066-36e131ca8fb2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63183 - "OPTIONS /auth/candidate/verify-code HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63183 - "POST /auth/candidate/verify-code HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /auth/candidate/verify-code HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "OPTIONS /candidate/register-face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /candidate/register-face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "OPTIONS /exam/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /exam/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "OPTIONS /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "OPTIONS /proctor/browser-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/browser-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "OPTIONS /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/browser-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60165 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61604 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49671 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65522 - "OPTIONS /auth/admin/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65522 - "POST /auth/admin/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:59143 - "OPTIONS /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65439 - "OPTIONS /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59143 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65439 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65439 - "POST /auth/admin/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65439 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59143 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50168 - "OPTIONS /admin/exams/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57808 - "OPTIONS /admin/invite-codes/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59215 - "OPTIONS /admin/exams/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56700 - "OPTIONS /admin/invite-codes/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57808 - "GET /admin/exams/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50168 - "GET /admin/invite-codes/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56700 - "GET /admin/exams/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57808 - "GET /admin/invite-codes/c29138d8-5982-4dea-a962-166b6ce7348b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57165 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61263 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61263 - "POST /auth/admin/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61263 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57165 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49671 - "OPTIONS /auth/candidate/verify-code HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49671 - "POST /auth/candidate/verify-code HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "OPTIONS /candidate/register-face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /candidate/register-face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "OPTIONS /exam/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /exam/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "OPTIONS /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "OPTIONS /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/noise-event HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /proctor/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "OPTIONS /exam/finish HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "POST /exam/finish HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "OPTIONS /exam/result/af38aa6d-b42d-48a2-8066-36e131ca8fb2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64765 - "OPTIONS /exam/result/af38aa6d-b42d-48a2-8066-36e131ca8fb2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "GET /exam/result/af38aa6d-b42d-48a2-8066-36e131ca8fb2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64765 - "GET /exam/result/af38aa6d-b42d-48a2-8066-36e131ca8fb2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57345 - "OPTIONS /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51568 - "OPTIONS /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57345 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51568 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "OPTIONS /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63871 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58644 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53957 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55282 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61289 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61289 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61289 - "GET /admin/monitor/live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61289 - "GET /admin/exams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51008 - "GET /admin/exams HTTP/1.1" 200 OK

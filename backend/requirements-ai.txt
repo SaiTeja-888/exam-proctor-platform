@@ -1,0 +1,6 @@
+# Optional production AI dependencies.
+# Some packages may need Python 3.10/3.11 wheels, CMake, dlib, and Visual C++ build tools on Windows.
+opencv-python==4.10.0.84
+mediapipe==0.10.20
+ultralytics==8.3.56
+face-recognition==1.3.0

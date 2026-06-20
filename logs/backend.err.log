@@ -1,0 +1,22 @@
+INFO:     Started server process [30064]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51223 - "WebSocket /ws/monitor" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:50773 - "WebSocket /ws/monitor" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:49672 - "WebSocket /ws/monitor" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:50954 - "WebSocket /ws/monitor" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:60467 - "WebSocket /ws/monitor" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:55022 - "WebSocket /ws/monitor" [accepted]
+INFO:     connection open
+INFO:     connection closed
