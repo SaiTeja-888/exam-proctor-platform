@@ -17,17 +17,12 @@ SUSPICIOUS_OBJECTS = {
     "keyboard": "medium",
 }
 
-
 @lru_cache(maxsize=1)
 def _load_yolo() -> Any:
     try:
         from ultralytics import YOLO
 
-        model_path = (
-            Path(__file__).resolve().parents[1]
-            / "models"
-            / "yolov8s.pt"
-        )
+        model_path = Path(__file__).resolve().parent / "yolov8s.pt"
 
         if model_path.exists():
             return YOLO(str(model_path))
@@ -100,15 +95,13 @@ def run_yolo_detection(frame_bgr: np.ndarray) -> dict[str, Any]:
 
     except Exception:
         pass
-
     results = model(
-        frame_bgr,
-        conf=0.20,
-        iou=0.45,
-        imgsz=640,
-        verbose=False,
+    frame_bgr,
+    conf=0.30,
+    iou=0.45,
+    imgsz=1280, 
+    verbose=False,
     )
-
     phone_detected = False
     phone_confidence = 0
 
@@ -138,10 +131,10 @@ def run_yolo_detection(frame_bgr: np.ndarray) -> dict[str, Any]:
                 "conf": round(conf, 2),
             }
 
-            print(f"{label} -> {conf:.2f}")
-
+            print(f"{label} -> {conf:.2f}")               
             if cls_id == PERSON_CLASS:
-                persons.append(bbox)
+               if conf > 0.30:
+                   persons.append({"conf": round(conf, 2)})
 
             elif label in SUSPICIOUS_OBJECTS:
 
@@ -163,12 +156,12 @@ def run_yolo_detection(frame_bgr: np.ndarray) -> dict[str, Any]:
     person_count = len(persons)
 
     return {
-        "ai_available": True,
-        "person_count": person_count,
-        "no_face": person_count == 0,
-        "multiple_faces": person_count > 1,
-        "persons": persons,
-        "suspicious_objects": suspicious_objects,
-        "has_phone": phone_detected,
-        "phone_confidence": round(phone_confidence, 2),
-    }
+    "ai_available": True,
+    "person_count": person_count,
+    "no_face": person_count == 0,
+    "multiple_faces": person_count > 1,
+    "persons": [],
+    "suspicious_objects": suspicious_objects,
+    "has_phone": phone_detected,
+    "phone_confidence": round(phone_confidence, 2),
+}

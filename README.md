@@ -103,4 +103,4 @@ cd exam-proctor-platform
 docker compose up --build
 ```
 
-Frontend runs on `http://localhost:3000`, backend on `http://localhost:8000`.
+Frontend runs on `http://localhost:3000`, backend on `https://exam-proctor-platform.onrender.com`.

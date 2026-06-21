@@ -5,3 +5,7 @@ pydantic==2.10.4
 numpy==2.2.1
 pillow==11.0.0
 httpx==0.28.1
+ultralytics
+opencv-python-headless
+torch
+torchvision
