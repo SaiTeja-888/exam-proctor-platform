@@ -3,3 +3,7 @@ backend/venv/
 __pycache__/ 
 *.pyc 
 frontend/dist/ 
+models/face_embeddings/
+__pycache__/
+venv/
+logs/
